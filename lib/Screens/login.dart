@@ -31,9 +31,9 @@ class _LoginPageState extends State<LoginPage> {
               TextFormField(
                 controller: usernameController,
                 decoration: InputDecoration(
-                  border: OutlineInputBorder(),
-                  hintText: 'Enter Username',
-                ),
+                    border: OutlineInputBorder(),
+                    hintText: 'Enter Username',
+                    labelText: 'Username'),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
                     return "Value is empty";
@@ -46,9 +46,9 @@ class _LoginPageState extends State<LoginPage> {
               TextFormField(
                 controller: passwordController,
                 decoration: InputDecoration(
-                  border: OutlineInputBorder(),
-                  hintText: 'Enter Password',
-                ),
+                    border: OutlineInputBorder(),
+                    hintText: 'Enter Password',
+                    labelText: 'Password'),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
                     return "Value is empty";
